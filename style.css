@@ -1,0 +1,64 @@
+ body
+ {
+       margin: 0;
+       font-family: sans-serif;
+       display: flex;
+       flex-direction: column;
+       flex-direction: center;
+       align-items:center;
+       height:170vh;
+       justify-content: center;
+       background-image:url("keshav.jpg");
+       background-size:auto;
+       overflow: hidden;
+
+       
+ }
+ .h2
+ {
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   font-size: 14px;
+   text-align: center;
+   color: white;
+
+ }
+ .DigitalClock
+ {
+  display:flex;
+ }
+ .DigitalClock div{
+  margin:5px; 
+    position: relative;
+ }
+ .DigitalClock span{
+  width:100px;
+  height: 80px;
+  background-color: rgb(67, 77, 74);
+  opacity: .8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+
+ }
+ .DigitalClock .text{
+  height: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  background: rgb(75, 81, 76);
+  opacity: 0.8;
+ }
+ .DigitalClock #ampm{
+  bottom: 0;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background: rgba(79, 83, 76, 0.59);
+
+ }
+ 
